@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav-menu li a {
+    position: relative;
+    display: block;
+    padding: 14px 18px;
+  }
+  
+ 
+  
+  .nav-menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    width: 0;
+    height: 2px;
+    background: red;
+  }
+  
+  .nav-menu li a:hover::after {
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
+
+
+
+
+.header{
+    z-index: 99;
+    position: relative;
+    top: 0;
+    background: white;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head1{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
+}
+
+.head2{
+    
+    position: absolute;
+    top: 40px ;
+    right: 100px;
+}
+
+.nav-menu{
+    z-index: 100;
+    display: inline-flex;
+    gap: 30px;
+}
+
+.title{
+    margin: 30px;
+    text-align: center;
+}
+
+.card{
+    height: 1300px;
+    width: auto;
+}
+
+.box{
+    
+    width: 572px;
+    height: 410px;
+    
+}
+
+.boxes1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.boxes2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.button{
+    position: relative;
+    position: absolute;
+    top: 1250px;
+    left: 640px;
+  
+      
+}
+
+.card2{
+    position: relative;
+    height: 700px;
+    width: auto;
+    background: rgb(242,237,235);
+    
+
+}
+
+.tekst{ 
+    padding-left: 50px;
+   position: absolute;
+  top: 250px;
+   
+}
+
+.img{
+    position: absolute;
+    top: 100px;
+    right: 160px;
+}
+
+.images{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foot{
+    position: relative;
+    height: 479px;
+    width: 100%;
+    background:  rgb(242,237,235) ;
+   
+    
+}
+.textt{
+    position: absolute;
+    text-align: center;
+    margin: 50px;
+}
+
+
